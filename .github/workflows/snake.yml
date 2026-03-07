@@ -5,10 +5,8 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-# ✅ THIS IS THE FIX
 permissions:
   contents: write
-  pages: write
 
 jobs:
   build:
@@ -21,15 +19,18 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: TARUNVSMK
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            output/github-snake.svg
-            output/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: output
+          build_dir: dist
+          keep_history: true
+          commit_message: "Update contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
