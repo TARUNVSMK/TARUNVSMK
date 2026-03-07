@@ -33,6 +33,15 @@
   </a>
 </p>
 
+<div align="center">
+   <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
+</div>
+
+
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 </div>
@@ -182,7 +191,7 @@ const tarun = {
 
 ---
 
-## 🏆 GitHub Trophies
+<!-- ## 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=vtarunvsmk&theme=tokyonight&no-frame=true&margin-w=4&column=7"/>
@@ -190,23 +199,9 @@ const tarun = {
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
----
+--- -->
 
-## 🐍 Contribution Snake
-
-<div align="center">
-   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-</picture>
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
----
-
-## 🔝 Top Contributed Repos
+<!-- ## 🔝 Top Contributed Repos
 
 <div align="center">
   <img src="https://github-contributor-stats.vercel.app/api?username=vtarunvsmk&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true"/>
@@ -214,21 +209,18 @@ const tarun = {
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
----
+--- -->
 
 ## ✍️ Dev Quote of the Day
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 </div>
-
-<br/>
-
+<!--
 <div align="center">
   <img src="https://visitcount.itsvg.in/api?id=vtarunvsmk&label=Profile%20Views&icon=5&color=6&pretty=true"/>
 </div>
-
 <br/>
-
+-->
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:92FE9D,100:00C9FF&height=120&section=footer"/>
