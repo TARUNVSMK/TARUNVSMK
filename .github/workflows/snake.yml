@@ -21,7 +21,7 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: vtarunvsmk
+          github_user_name: TARUNVSMK
           outputs: |
             output/github-snake.svg
             output/github-snake-dark.svg?palette=github-dark
