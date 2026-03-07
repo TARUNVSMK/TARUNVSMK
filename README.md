@@ -195,11 +195,11 @@ const tarun = {
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TARUNVSMK/TARUNVSMK/output/github-snake-dark.svg?sanitize=true&v=20260307"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TARUNVSMK/TARUNVSMK/output/github-snake.svg?sanitize=true&v=20260307"/>
-    <img alt="github-snake" src="https://raw.githubusercontent.com/TARUNVSMK/TARUNVSMK/output/github-snake.svg?sanitize=true&v=20260307"/>
-  </picture>
+   <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
